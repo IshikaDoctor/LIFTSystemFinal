@@ -37,10 +37,10 @@
             // 
             // btnUpdateStudent
             // 
-            this.btnUpdateStudent.BackColor = System.Drawing.Color.Red;
+            this.btnUpdateStudent.BackColor = System.Drawing.Color.Fuchsia;
             this.btnUpdateStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateStudent.Location = new System.Drawing.Point(58, 276);
-            this.btnUpdateStudent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdateStudent.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdateStudent.Name = "btnUpdateStudent";
             this.btnUpdateStudent.Size = new System.Drawing.Size(195, 81);
             this.btnUpdateStudent.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.btnLogOut.BackColor = System.Drawing.Color.RosyBrown;
             this.btnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.Location = new System.Drawing.Point(334, 461);
-            this.btnLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(105, 49);
             this.btnLogOut.TabIndex = 2;
@@ -66,7 +66,7 @@
             this.btnGenerateReport.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnGenerateReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerateReport.Location = new System.Drawing.Point(290, 276);
-            this.btnGenerateReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGenerateReport.Margin = new System.Windows.Forms.Padding(2);
             this.btnGenerateReport.Name = "btnGenerateReport";
             this.btnGenerateReport.Size = new System.Drawing.Size(195, 81);
             this.btnGenerateReport.TabIndex = 3;
@@ -79,7 +79,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(526, 276);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(195, 81);
             this.button1.TabIndex = 4;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.btnUpdateStudent);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AdministratorDashboardPage";
             this.Text = "Administrator Dashboard Page";
             this.ResumeLayout(false);
