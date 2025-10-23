@@ -37,7 +37,7 @@
             // 
             // btnUpdateStudent
             // 
-            this.btnUpdateStudent.BackColor = System.Drawing.Color.Lime;
+            this.btnUpdateStudent.BackColor = System.Drawing.Color.Red;
             this.btnUpdateStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateStudent.Location = new System.Drawing.Point(58, 276);
             this.btnUpdateStudent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
